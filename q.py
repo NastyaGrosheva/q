@@ -7,29 +7,43 @@ if a == "да":
             d = input("был ли питомец?")
             if d == "да":
                 print("Жасмин")
-            else:
+            elif d == "нет":
                 print("Белоснежка")
-        else:
+            else:
+                print("попробуйте снова")
+        elif c == "нет":
             e = input("Разговаривала с крабом?")
             if e == "да":
                 print("Моана")
-            else:
+            elif e == "нет":
                 print("Покахонтас")
-    else:
+            else:
+                print("попробуйте снова")
+        else:
+            print("попробуйте снова")
+    elif b == "нет":
         f = input("Был ли питомец?")
         if f == "да":
-            g = input("она циганка?")
+            g = input("она цыганка?")
             if g == "да":
                 print("Эсмеральда")
-            else:
+            elif g == "нет":
                 print("Мулан")
-        else:
+            else:
+                print("попробуйте снова")
+        elif f == "нет":
             y = input("целовалась с лягушкой?")
             if y == "да":
                 print("Тиана")
-            else:
+            elif y == "нет":
                 print("Бель")
-else:
+            else:
+                print("попробуйте снова")
+        else:
+            print("попробуйте снова")
+    else:
+        print("попробуйте снова")
+elif a == "нет":
     h = input("был ли у семьи статус в обществе?")
     if h == "да":
         i = input("вышла ли замуж?")
@@ -39,23 +53,39 @@ else:
                 k = input("жила ли в море?")
                 if k == "да":
                     print("Ариэль")
-                else:
+                elif k == "нет":
                     print("Рапунцель")
-            else:
+                else:
+                    print("попробуйте снова")
+            elif j == "нет":
                 l = input("влюблена ли в огра?")
                 if l == "да":
                     print("Фиона")
-                else:
+                elif l == "нет":
                     m = input("дружила ли со снеговиком?")
                     if m == "да":
                         print("Анна")
-                    else:
+                    elif m == "нет":
                         print("Аврора")
-        else:
+                    else:
+                        print("попробуйте снова")
+                else:
+                    print("попробуйте снова")
+            else:
+                print("попробуйте снова")
+        elif i == "нет":
             n = input("обладала магическими силами?")
             if n == "да":
                 print("Эльза")
-            else:
+            elif n == "нет":
                 print("Мерида")
-    else:
+            else:
+                print("попробуйте снова")
+        else:
+            print("попробуйте снова")
+    elif h == "нет":
         print("Золушка")
+    else:
+        print("попробуйте снова")
+else:
+    print("попробуйте снова")
